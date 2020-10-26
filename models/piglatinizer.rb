@@ -1,6 +1,6 @@
 class PigLatinizer
 
-  def piglatinize(inputs)
+  def piglatinize(input)
     arr = input.split.map do |word|
       if word[0].match(/[aeiou]/)
         new_word = word + way
