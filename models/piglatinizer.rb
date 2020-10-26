@@ -9,5 +9,8 @@ class PigLatinizer
         consonants = word.slice!(/^([aeiou]+)/)
         new_word = word + consonants + ay
         new_word
+      end
+    end
+    arr.join(' ')
   end
 end
