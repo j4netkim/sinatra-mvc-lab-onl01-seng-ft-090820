@@ -5,6 +5,6 @@ class PigLatinizer
   end
 
   def piglatinize(word)
-    enf 
+  end 
 
 end
