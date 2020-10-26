@@ -1,6 +1,8 @@
 class PigLatinizer
 
   def piglatinize(input)
+    "ay" = ay
+    "way" = way
     arr = input.split.map do |word|
       if word[0].match(/[aeiou]/)
         "way" = way
@@ -8,7 +10,6 @@ class PigLatinizer
         new_word
       else
         consonants = word.slice!(/^([aeiou]+)/)
-        "ay" = ay
         new_word = word + consonants + ay
         new_word
       end
