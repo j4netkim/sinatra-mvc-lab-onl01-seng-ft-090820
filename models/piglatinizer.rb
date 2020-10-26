@@ -1,11 +1,11 @@
 class PigLatinizer
 
-  def piglatinize(word)
-    word.split(' ').length == 1 ? piglatinize_input(word) : piglatinize_sentence(word)
+  def piglatinize(inputs)
+    arr = input.split.map do |word|
+      if word[0].match(/[aeiou]/)
+        new_word = word + way
+        new_word
+      else
+        
   end
-
-  def piglatinize_input(word)
-    
-  end
-
 end
