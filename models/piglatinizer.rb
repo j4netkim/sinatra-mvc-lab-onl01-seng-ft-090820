@@ -13,6 +13,6 @@ class PigLatinizer
         new_word
       end
     end
-    arr.join(' ')
+    arr.join(" ")
   end
 end
