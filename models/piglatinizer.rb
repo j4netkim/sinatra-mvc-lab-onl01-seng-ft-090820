@@ -1,4 +1,4 @@
 class PigLatinizer
-  attr_reader :word
+  attr_reader :text
   
 end
