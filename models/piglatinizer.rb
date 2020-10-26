@@ -4,4 +4,7 @@ class PigLatinizer
     @word = word
   end
 
+  def piglatinize(word)
+    enf 
+
 end
