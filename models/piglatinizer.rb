@@ -4,7 +4,7 @@ class PigLatinizer
     "ay" = ay
     "way" = way
     arr = input.split.map do |word|
-      if word[0].match(/[aeiou]/)
+      if word[0].match(/[aeiouAEIOU]/)
         new_word = word + way
         new_word
       else
